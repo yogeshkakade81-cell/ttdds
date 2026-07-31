@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tumor-Targeting Drug Delivery Systems</title>
+    <style>
+        /* CSS to create a colorful gradient background */
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298); /* Deep blue gradient */
+            color: white; /* Make text readable against the dark background */
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center the content */
+            margin: 0;
+            padding: 50px;
+            min-height: 100vh; /* Ensures the background covers the full screen */
+        }
+        
+        .content-container {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black box */
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Video styling */
+        .animation-container {
+            margin-top: 30px;
+        }
+        
+        video {
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+            max-width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Tumor-Targeting Drug Delivery Systems</h1>
-    <p>Welcome to the project page for our research on targeted cancer therapeutics.</p>
-    
-    <h2>Overview</h2>
-    <p>This project focuses on the development of novel self-immolative linkers for antibody-drug conjugates (ADCs) to improve therapeutic index and cancer cell selectivity.</p>
+
+    <div class="content-container">
+        <h1>Tumor-Targeting Drug Delivery Systems</h1>
+        <p>Welcome to our research portfolio focusing on the design and optimization of self-immolative linkers for antibody-drug conjugates (ADCs).</p>
+        
+        <!-- Video Animation Section -->
+        <div class="animation-container">
+            <h2>ADC Delivery Mechanism Animation</h2>
+            <p>Watch how our novel linkers release the payload selectively within the tumor microenvironment.</p>
+            
+            <!-- Embed the video here -->
+            <video controls autoplay loop muted width="600">
+                <source src="animations/tumor-targeting.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
 </body>
 </html>
